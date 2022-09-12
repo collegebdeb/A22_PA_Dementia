@@ -1235,3 +1235,137 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.09.12-14.08.52:613][891]LogContentBrowser: Attempting asset rename: NewFolder -> Wireframe
 [2022.09.12-14.08.52:614][891]LogContentBrowser: End creating deferred item NewFolder
 [2022.09.12-14.26.22:977][190]LogDerivedDataCache: D:/Users/2040653/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.024 and deleted 0 file(s) with total size 0 MiB.
+[2022.09.12-14.58.38:375][389]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Casque (Oculus Virtual Audio Device), InstanceID=1
+[2022.09.12-14.58.38:375][389]LogAudioMixer: Warning: Ignoring attempt to switch to device with unsupported params: Channels=0, SampleRate=0, Id={0.0.0.00000000}.{e5b6fea0-24d5-4c1b-a362-213dea8d03c2}, Name=Casque (Oculus Virtual Audio Device)
+[2022.09.12-14.58.38:379][390]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18588
+[2022.09.12-15.26.23:103][756]LogDerivedDataCache: D:/Users/2040653/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.029 and deleted 0 file(s) with total size 0 MiB.
+[2022.09.12-15.38.02:709][823]LogMaterial: Display: Missing cached shadermap for Material_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 7D6CAED3956BF97ED9793019BCB25BC7FEF075DA), compiling. 
+[2022.09.12-15.38.05:877][139]LogShaderCompilers: Display: ================================================
+[2022.09.12-15.38.05:877][139]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.12-15.38.05:877][139]LogShaderCompilers: Display: Total job queries 5140, among them cache hits 2 (0.04%)
+[2022.09.12-15.38.05:877][139]LogShaderCompilers: Display: Tracking 5137 distinct input hashes that result in 1236 distinct outputs (24.06%)
+[2022.09.12-15.38.05:877][139]LogShaderCompilers: Display: RAM used: 5.40 MB (0.01 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.33%
+[2022.09.12-15.38.05:877][139]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.12-15.38.05:877][139]LogShaderCompilers: Display: Shaders Compiled: 5138
+[2022.09.12-15.38.05:877][139]LogShaderCompilers: Display: Jobs assigned 5138, completed 5137 (99.98%)
+[2022.09.12-15.38.05:877][139]LogShaderCompilers: Display: Average time worker was idle: 23.13 s
+[2022.09.12-15.38.05:877][139]LogShaderCompilers: Display: Time job spent in pending queue: average 1030.59 s, longest 2009.66 s
+[2022.09.12-15.38.05:877][139]LogShaderCompilers: Display: Job execution time: average 15.69 s, max 45.63 s
+[2022.09.12-15.38.05:877][139]LogShaderCompilers: Display: Job life time (pending + execution): average 1046.49 s, max 2011.27
+[2022.09.12-15.38.05:878][139]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2018.68 s
+[2022.09.12-15.38.05:878][139]LogShaderCompilers: Display: Jobs were issued in 524 batches (only local compilation was used), average 9.81 jobs/batch
+[2022.09.12-15.38.05:878][139]LogShaderCompilers: Display: Average processing rate: 2.54 jobs/sec
+[2022.09.12-15.38.05:878][139]LogShaderCompilers: Display: Effective parallelization: 3.72 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.09.12-15.38.05:878][139]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.09.12-15.38.05:878][139]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled   27 times, average 5.56 sec, max 8.04 sec, min 3.55 sec)
+[2022.09.12-15.38.05:878][139]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyHQSkylight (compiled   27 times, average 5.55 sec, max 8.20 sec, min 4.56 sec)
+[2022.09.12-15.38.05:878][139]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyLQ (compiled   27 times, average 5.36 sec, max 8.11 sec, min 3.56 sec)
+[2022.09.12-15.38.05:878][139]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled   27 times, average 5.30 sec, max 7.58 sec, min 3.66 sec)
+[2022.09.12-15.38.05:878][139]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled   27 times, average 5.26 sec, max 7.34 sec, min 3.67 sec)
+[2022.09.12-15.38.05:878][139]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.09.12-15.38.05:878][139]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.00% of total time (compiled  227 times, average 2.64 sec, max 6.55 sec, min 0.47 sec)
+[2022.09.12-15.38.05:878][139]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 6.98% of total time (compiled  100 times, average 5.24 sec, max 7.42 sec, min 3.72 sec)
+[2022.09.12-15.38.05:878][139]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 6.90% of total time (compiled  100 times, average 5.18 sec, max 7.19 sec, min 3.55 sec)
+[2022.09.12-15.38.05:878][139]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 6.88% of total time (compiled  100 times, average 5.17 sec, max 7.33 sec, min 3.37 sec)
+[2022.09.12-15.38.05:878][139]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 6.80% of total time (compiled  106 times, average 4.82 sec, max 7.63 sec, min 0.79 sec)
+[2022.09.12-15.38.05:878][139]LogShaderCompilers: Display: ================================================
+[2022.09.12-15.38.12:767][850]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.09.12-15.38.12:824][850]LogContentBrowser: Creating deferred item: NewFolder
+[2022.09.12-15.38.12:830][851]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.09.12-15.38.15:670][182]LogContentBrowser: Attempting asset rename: NewFolder -> Level
+[2022.09.12-15.38.15:670][182]LogContentBrowser: End creating deferred item NewFolder
+[2022.09.12-15.38.30:381][905]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2022.09.12-15.38.30:386][905]LogContentBrowser: Creating deferred item: NewWorld
+[2022.09.12-15.38.30:414][907]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2022.09.12-15.38.39:338][965]LogContentBrowser: Attempting asset rename: NewWorld -> Main_Menu_Lvl
+[2022.09.12-15.38.39:341][965]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.12-15.38.39:348][965]LogContentBrowser: End creating deferred item NewWorld
+[2022.09.12-15.38.41:933][268]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.09.12-15.38.43:575][268]LogSlate: Window 'Save Content' being destroyed
+[2022.09.12-15.38.43:625][268]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2022.09.12-15.38.43:632][268]LogPackageLocalizationCache: Processed 30 localized package path(s) for 1 prioritized culture(s) in 0.004924 seconds
+[2022.09.12-15.38.43:642][268]LogSavePackage: Moving output files for package: /Game/Level/Main_Menu_Lvl
+[2022.09.12-15.38.43:642][268]LogSavePackage: Moving 'D:/Users/2040653/Documents/Unreal Projects/A22_PA_Dementia/Dementia_Project/Saved/Main_Menu_Lvl990B28A243AD8F71301F96B76FECD1A9.tmp' to 'D:/Users/2040653/Documents/Unreal Projects/A22_PA_Dementia/Dementia_Project/Content/Level/Main_Menu_Lvl.umap'
+[2022.09.12-15.38.43:644][268]LogFileHelpers: No new changes to save!
+[2022.09.12-15.38.43:652][268]LogFileHelpers: Saving map 'Main_Menu_Lvl' took 0.038
+[2022.09.12-15.38.43:658][268]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level/Main_Menu_Lvl.Main_Menu_Lvl
+[2022.09.12-15.38.43:658][268]Cmd: MAP LOAD FILE="D:/Users/2040653/Documents/Unreal Projects/A22_PA_Dementia/Dementia_Project/Content/Level/Main_Menu_Lvl.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.09.12-15.38.43:658][268]LightingResults: New page: Lighting Build
+[2022.09.12-15.38.43:658][268]LoadErrors: New page: Loading map: Main_Menu_Lvl.umap
+[2022.09.12-15.38.43:685][268]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.12-15.38.43:687][268]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.12-15.38.43:687][268]MapCheck: New page: Map Check
+[2022.09.12-15.38.43:687][268]LightingResults: New page: Lighting Build
+[2022.09.12-15.38.43:696][268]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.12-15.38.43:700][268]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.09.12-15.38.43:702][268]LogWorld: UWorld::CleanupWorld for Main_Menu_Lvl, bSessionEnded=true, bCleanupResources=true
+[2022.09.12-15.38.43:702][268]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.12-15.38.43:712][268]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.09.12-15.38.43:720][268]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.09.12-15.38.43:721][268]LogAudio: Display: Audio Device (ID: 1) registered with world 'Main_Menu_Lvl'.
+[2022.09.12-15.38.43:721][268]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.12-15.38.43:722][268]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.12-15.38.43:722][268]LogAIModule: Creating AISystem for world Main_Menu_Lvl
+[2022.09.12-15.38.43:723][268]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.09.12-15.38.43:732][268]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.09.12-15.38.43:748][268]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.09.12-15.38.43:748][268]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,104ms to complete.
+[2022.09.12-15.38.43:748][268]LogFileHelpers: Loading map 'Main_Menu_Lvl' took 0.090
+[2022.09.12-15.38.43:754][268]AssetCheck: New page: Asset Save: Main_Menu_Lvl
+[2022.09.12-15.38.43:755][268]LogContentValidation: Display: Validating World /Game/Level/Main_Menu_Lvl.Main_Menu_Lvl
+[2022.09.12-15.47.43:951][ 40]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.09.12-15.47.43:959][ 40]LogContentBrowser: Creating deferred item: NewFolder
+[2022.09.12-15.47.43:964][ 41]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.09.12-15.47.48:048][519]LogContentBrowser: Attempting asset rename: NewFolder -> Sub_level
+[2022.09.12-15.47.48:049][519]LogContentBrowser: End creating deferred item NewFolder
+[2022.09.12-15.47.51:515][904]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2022.09.12-15.47.51:519][904]LogContentBrowser: Creating deferred item: NewWorld
+[2022.09.12-15.47.51:546][906]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2022.09.12-15.48.01:489][ 88]LogContentBrowser: Attempting asset rename: NewWorld -> Day1_Lvl
+[2022.09.12-15.48.01:489][ 88]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.12-15.48.01:490][ 88]LogContentBrowser: End creating deferred item NewWorld
+[2022.09.12-15.48.18:865][ 14]LogContentBrowser: Attempting asset rename: Day1_Lvl_2 -> Day2_Lvl
+[2022.09.12-15.48.18:981][ 14]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.12-15.48.18:994][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.09.12-15.48.18:997][ 14]LogSavePackage: Moving output files for package: /Game/Level/Sub_level/Day2_Lvl
+[2022.09.12-15.48.18:997][ 14]LogSavePackage: Moving 'D:/Users/2040653/Documents/Unreal Projects/A22_PA_Dementia/Dementia_Project/Saved/Day2_LvlFE84E1C14103A481F2CEC6BB31700611.tmp' to 'D:/Users/2040653/Documents/Unreal Projects/A22_PA_Dementia/Dementia_Project/Content/Level/Sub_level/Day2_Lvl.umap'
+[2022.09.12-15.48.18:997][ 14]LogFileHelpers: No new changes to save!
+[2022.09.12-15.48.19:009][ 14]LogFileHelpers: Saving map 'Day2_Lvl' took 0.029
+[2022.09.12-15.48.19:029][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2022.09.12-15.48.19:038][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.09.12-15.48.19:044][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2022.09.12-15.48.19:048][ 14]AssetCheck: New page: Asset Save: Day2_Lvl
+[2022.09.12-15.48.19:048][ 14]LogContentValidation: Display: Validating World /Game/Level/Sub_level/Day2_Lvl.Day2_Lvl
+[2022.09.12-15.48.30:719][403]LogContentBrowser: Attempting asset rename: Day1_Lvl_3 -> Day3_Lvl
+[2022.09.12-15.48.30:779][403]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.12-15.48.30:787][403]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.09.12-15.48.30:789][403]LogSavePackage: Moving output files for package: /Game/Level/Sub_level/Day3_Lvl
+[2022.09.12-15.48.30:790][403]LogSavePackage: Moving 'D:/Users/2040653/Documents/Unreal Projects/A22_PA_Dementia/Dementia_Project/Saved/Day3_LvlD779969A42DA60BF065C5B99A0C8320C.tmp' to 'D:/Users/2040653/Documents/Unreal Projects/A22_PA_Dementia/Dementia_Project/Content/Level/Sub_level/Day3_Lvl.umap'
+[2022.09.12-15.48.30:790][403]LogFileHelpers: No new changes to save!
+[2022.09.12-15.48.30:806][403]LogFileHelpers: Saving map 'Day3_Lvl' took 0.027
+[2022.09.12-15.48.30:826][403]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2022.09.12-15.48.30:834][403]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.09.12-15.48.30:843][403]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.09.12-15.48.30:846][403]AssetCheck: New page: Asset Save: Day3_Lvl
+[2022.09.12-15.48.30:846][403]LogContentValidation: Display: Validating World /Game/Level/Sub_level/Day3_Lvl.Day3_Lvl
+[2022.09.12-15.48.41:178][614]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.12-15.48.41:178][614]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.12-15.48.48:037][416]LogContentBrowser: Attempting asset rename: Day1_Lvl_4 -> Day4_Lvl
+[2022.09.12-15.48.48:093][416]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.12-15.48.48:101][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.09.12-15.48.48:103][416]LogSavePackage: Moving output files for package: /Game/Level/Sub_level/Day4_Lvl
+[2022.09.12-15.48.48:103][416]LogSavePackage: Moving 'D:/Users/2040653/Documents/Unreal Projects/A22_PA_Dementia/Dementia_Project/Saved/Day4_LvlA34C9B6549A0AAB357325A95BA26F3BC.tmp' to 'D:/Users/2040653/Documents/Unreal Projects/A22_PA_Dementia/Dementia_Project/Content/Level/Sub_level/Day4_Lvl.umap'
+[2022.09.12-15.48.48:104][416]LogFileHelpers: No new changes to save!
+[2022.09.12-15.48.48:116][416]LogFileHelpers: Saving map 'Day4_Lvl' took 0.022
+[2022.09.12-15.48.48:135][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2022.09.12-15.48.48:142][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.09.12-15.48.48:151][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2022.09.12-15.48.48:154][416]AssetCheck: New page: Asset Save: Day4_Lvl
+[2022.09.12-15.48.48:154][416]LogContentValidation: Display: Validating World /Game/Level/Sub_level/Day4_Lvl.Day4_Lvl
+[2022.09.12-15.49.12:098][284]LogEditorViewport: Clicking Background
+[2022.09.12-15.49.12:583][335]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2022.09.12-15.49.12:586][335]LogSavePackage: Moving output files for package: /Game/Level/Main_Menu_Lvl
+[2022.09.12-15.49.12:590][335]LogSavePackage: Moving 'D:/Users/2040653/Documents/Unreal Projects/A22_PA_Dementia/Dementia_Project/Saved/Main_Menu_Lvl2BD2368A4B93903B52F2338ED923C59C.tmp' to 'D:/Users/2040653/Documents/Unreal Projects/A22_PA_Dementia/Dementia_Project/Content/Level/Main_Menu_Lvl.umap'
+[2022.09.12-15.49.12:592][335]LogFileHelpers: No new changes to save!
+[2022.09.12-15.49.12:609][335]AssetCheck: New page: Asset Save: Main_Menu_Lvl
+[2022.09.12-15.49.12:609][335]LogContentValidation: Display: Validating World /Game/Level/Main_Menu_Lvl.Main_Menu_Lvl
