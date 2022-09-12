@@ -1369,3 +1369,43 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.09.12-15.49.12:592][335]LogFileHelpers: No new changes to save!
 [2022.09.12-15.49.12:609][335]AssetCheck: New page: Asset Save: Main_Menu_Lvl
 [2022.09.12-15.49.12:609][335]LogContentValidation: Display: Validating World /Game/Level/Main_Menu_Lvl.Main_Menu_Lvl
+[2022.09.12-15.56.55:729][694]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.09.12-15.56.57:144][694]LogSlate: Window 'Save Content' being destroyed
+[2022.09.12-15.56.57:201][694]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2022.09.12-15.56.57:203][694]LogSavePackage: Moving output files for package: /Game/Level/Sub_level/Day1_Lvl
+[2022.09.12-15.56.57:203][694]LogSavePackage: Moving 'D:/Users/2040653/Documents/Unreal Projects/A22_PA_Dementia/Dementia_Project/Saved/Day1_Lvl74AD06E646310D0A12747E9C17A46700.tmp' to 'D:/Users/2040653/Documents/Unreal Projects/A22_PA_Dementia/Dementia_Project/Content/Level/Sub_level/Day1_Lvl.umap'
+[2022.09.12-15.56.57:203][694]LogFileHelpers: No new changes to save!
+[2022.09.12-15.56.57:215][694]LogFileHelpers: Saving map 'Day1_Lvl' took 0.023
+[2022.09.12-15.56.57:274][694]LogAssetEditorSubsystem: Opening Asset editor for World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2022.09.12-15.56.57:274][694]Cmd: MAP LOAD FILE="D:/Users/2040653/Documents/Unreal Projects/A22_PA_Dementia/Dementia_Project/Content/VRTemplate/Maps/VRTemplateMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.09.12-15.56.57:274][694]LightingResults: New page: Lighting Build
+[2022.09.12-15.56.57:274][694]LoadErrors: New page: Loading map: VRTemplateMap.umap
+[2022.09.12-15.56.57:275][694]LogWorld: UWorld::CleanupWorld for Main_Menu_Lvl, bSessionEnded=true, bCleanupResources=true
+[2022.09.12-15.56.57:275][694]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.12-15.56.57:275][694]MapCheck: New page: Map Check
+[2022.09.12-15.56.57:275][694]LightingResults: New page: Lighting Build
+[2022.09.12-15.56.57:284][694]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.12-15.56.57:285][694]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.09.12-15.56.57:287][694]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.12-15.56.57:287][694]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.12-15.56.57:287][694]LogWorld: UWorld::CleanupWorld for Day1_Lvl, bSessionEnded=true, bCleanupResources=true
+[2022.09.12-15.56.57:288][694]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.12-15.56.57:288][694]LogWorld: UWorld::CleanupWorld for Day2_Lvl, bSessionEnded=true, bCleanupResources=true
+[2022.09.12-15.56.57:288][694]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.12-15.56.57:288][694]LogWorld: UWorld::CleanupWorld for Day3_Lvl, bSessionEnded=true, bCleanupResources=true
+[2022.09.12-15.56.57:288][694]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.12-15.56.57:288][694]LogWorld: UWorld::CleanupWorld for Day4_Lvl, bSessionEnded=true, bCleanupResources=true
+[2022.09.12-15.56.57:288][694]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.12-15.56.57:298][694]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.09.12-15.56.57:306][694]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.09.12-15.56.57:315][694]LogAudio: Display: Audio Device (ID: 1) registered with world 'VRTemplateMap'.
+[2022.09.12-15.56.57:315][694]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.12-15.56.57:315][694]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.12-15.56.57:315][694]LogAIModule: Creating AISystem for world VRTemplateMap
+[2022.09.12-15.56.57:324][694]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.09.12-15.56.57:336][694]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2022.09.12-15.56.57:350][694]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.09.12-15.56.57:350][694]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,121ms to complete.
+[2022.09.12-15.56.57:350][694]LogFileHelpers: Loading map 'VRTemplateMap' took 0.076
+[2022.09.12-15.56.57:371][694]AssetCheck: New page: Asset Save: Day1_Lvl
+[2022.09.12-15.56.57:371][694]LogContentValidation: Display: Validating World /Game/Level/Sub_level/Day1_Lvl.Day1_Lvl
